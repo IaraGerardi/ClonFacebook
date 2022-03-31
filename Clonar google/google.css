@@ -130,15 +130,18 @@ html, body{
     justify-content: center;
 }
 #boxFooter{
+    border-top: 1px solid rgb(160, 160, 160);
     display: flex;
     width: 100%;
     position: relative;
     top: 334px;
 }
 #boxLowFooter{
+    color:rgb(155, 155, 155);
+    border-top: 1px solid rgb(160, 160, 160);
     justify-content: space-between;
 }
 /*color footer*/
 #boxFooter{
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(221, 221, 221);
 }
