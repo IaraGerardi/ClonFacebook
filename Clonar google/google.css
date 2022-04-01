@@ -24,7 +24,10 @@ img{
     #boxLowFooter{
         font-size: x-small;
     }
-
+    .buttonMain{
+        font-size: smaller;
+        flex-shrink: 1;
+    }
     svg{
         width: 30px;
         height: 30px;
@@ -48,6 +51,10 @@ img{
     svg{
         width: 30px;
         height: 30px;
+    }
+    .buttonMain{
+        font-size: x-small;
+        flex-shrink: 1;
     }
     #mainSectionBox svg{
         width: 20px;
@@ -85,7 +92,7 @@ html, body{
 .botonMain:hover{
     box-shadow: 0 0 7px #000000;
 }
-.botonMain:hover, span:hover, svg:hover, img:hover{
+.buttonMain:hover, span:hover, svg:hover, img:hover{
     cursor:pointer;
 }
 
